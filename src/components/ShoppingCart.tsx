@@ -15,6 +15,7 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
       <Offcanvas.Body>
         <Stack gap={3}>
           {cartItems.map((item) => (
+            //should create new component for inside of the cart
             <p>{item.id}</p>
           ))}
         </Stack>
