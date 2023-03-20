@@ -63,7 +63,6 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
       }
     }
     getStoreItems();
-    console.log(storeItems);
   }, []);
 
   function getItemQuantatiy(id: number) {
